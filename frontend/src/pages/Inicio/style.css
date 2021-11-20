@@ -1,0 +1,47 @@
+.inicio-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inicio-container img {
+    height: 110px;
+}
+
+.inicio-container .content{
+    width: 100%;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0,0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+
+.inicio-container section h1{
+    
+    padding: 40px;
+   
+}
+
+.inicio-container header a{
+    text-decoration: none;
+    padding: 11px;
+    font-size: 16px;
+    width: 230px;
+    height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    align-items: center;
+    background-color: #4b54b1;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+
+
+

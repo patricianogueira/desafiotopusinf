@@ -1,0 +1,70 @@
+.cadastro-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cadastro-container .content{
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0,0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cadastro-container .content section {
+    width: 100%;
+    max-width: 300px;
+}
+
+.cadastro-container .content section h1 {
+    margin: 64px 0 32px;
+    font-size: roboto, 32px;
+}
+
+.cadastro-container .content section p {
+    color: #737380;
+    font-size: roboto, 18px;
+    line-height: 32px;
+}
+
+.cadastro-container section a{
+    text-decoration: none;
+    padding: 11px;
+    font-size: 16px;
+    margin-left:100px;
+    background-color: #4b54b1;    ;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+.cadastro-container .content form {
+    width: 100%;
+    max-width: 450px;
+    
+}
+
+.cadastro-container .content form input {
+    margin-top: 8px;
+    width: 90%;
+    max-width: 450px;
+    height: 50px;
+}
+
+.botao {
+    font: 200 25px Roboto, sans-serif;
+    font-size: 20px;
+    width: 90%;
+    max-width: 450px;
+    height: 50px;
+    margin-top: 10px;
+    /*display: inline-block;*/
+    
+}
